@@ -1,0 +1,11 @@
+{
+  "name": "icon-to-font",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:icons": "node scripts/build-icons.mjs"
+  },
+  "devDependencies": {
+    "svgtofont": "^6.5.1"
+  }
+}

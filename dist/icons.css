@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "icons";
+  src: url('icons.eot?t=1772212789329'); /* IE9*/
+  src: url('icons.eot?t=1772212789329#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('icons.woff2?t=1772212789329') format('woff2'),
+  url('icons.woff?t=1772212789329') format('woff'),
+  url('icons.ttf?t=1772212789329') format('truetype'),
+  url('icons.svg?t=1772212789329') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icons' !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-cart-shopping::before { content: "\e001"; }
+.icon-eye::before { content: "\e002"; }
+.icon-facebook::before { content: "\e003"; }
+.icon-house::before { content: "\e004"; }
+.icon-plus::before { content: "\e005"; }
+.icon-volume::before { content: "\e006"; }
+
+
